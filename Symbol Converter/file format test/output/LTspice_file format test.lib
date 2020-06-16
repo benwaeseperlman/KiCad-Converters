@@ -1,0 +1,285 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+#   circles and arcs
+# NULL
+#
+DEF circles_and_arcs NULL 0 40 N Y 1 F N
+F0 "NULL" -150 -200 50 H I L C CNN
+F1 "circles and arcs" -150 -250 50 H V L C CNN
+$FPLIST
+ NULL_*
+$ENDFPLIST
+DRAW
+P 50 0 0 0 0 -78 0 -68 2 -58 5 -48 10 -39 15 -31 22 -23 29 -17 37 -11 46 -6 55 -3 65 -1 75 0 85 0 95 -1 105 -4 114 -8 122 -14 130 -20 137 -27 143 -35 148 -44 152 -53 154 -63 156 -73 156 -83 154 -93 152 -102 148 -112 143 -120 137 -128 130 -135 122 -142 114 -147 105 -151 95 -154 85 -155 75 -156 65 -155 55 -153 46 -149 37 -144 29 -139 22 -132 15 -124 10 -116 5 -107 2 -97 0 -88 0 -78
+P 41 0 0 0 0 100 2 111 7 121 15 130 24 136 33 141 42 144 50 147 59 148 67 149 75 150 82 149 90 148 99 147 107 144 116 141 125 136 134 130 142 121 147 111 150 100 147 88 142 78 134 69 125 63 116 58 107 55 99 52 90 51 82 50 75 50 67 50 59 51 50 52 42 55 33 58 24 63 15 69 7 78 2 88 0 99
+P 24 0 0 0 -400 150 -398 160 -395 169 -390 178 -384 186 -375 192 -366 197 -356 199 -346 199 -336 198 -326 194 -318 188 -311 181 -305 173 -301 163 -300 153 -300 143 -302 133 -307 124 -313 115 -321 109 -330 104 -339 101 -350 100
+P 8 0 0 0 -150 100 -161 101 -171 104 -181 110 -189 118 -195 128 -198 138 -200 150
+P 36 0 0 0 -300 -100 -300 -104 -300 -109 -300 -113 -300 -118 -300 -123 -300 -129 -301 -135 -301 -141 -302 -149 -303 -157 -305 -167 -307 -178 -310 -192 -315 -207 -321 -223 -331 -238 -343 -248 -356 -248 -368 -238 -378 -223 -384 -207 -389 -192 -392 -178 -394 -167 -396 -157 -397 -149 -398 -141 -398 -135 -399 -129 -399 -123 -399 -118 -399 -113 -399 -109 -399 -104 -400 -100
+P 13 0 0 0 -250 -49 -246 -37 -238 -26 -227 -18 -215 -12 -204 -8 -194 -5 -185 -3 -177 -1 -170 -1 -163 0 -156 0 -150 0
+P 6 0 0 0 -258 -199 -261 -189 -262 -178 -262 -168 -261 -157 -258 -147
+ENDDRAW
+ENDDEF
+#
+#   lines and rectangles
+# NULL
+#
+DEF lines_and_rectangles NULL 0 40 N Y 1 F N
+F0 "NULL" 0 100 50 H I L C CNN
+F1 "lines and rectangles" 0 0 50 H I L C CNN
+$FPLIST
+ NULL_*
+$ENDFPLIST
+DRAW
+P 2 0 0 0 100 0 -100 0
+P 2 0 0 0 150 -50 100 0
+P 2 0 0 0 150 0 150 -50
+P 2 0 0 0 150 50 150 0
+P 2 0 0 0 100 0 150 50
+P 2 0 0 0 150 150 -100 150
+P 2 0 0 0 150 300 150 150
+P 2 0 0 0 -100 300 150 300
+P 2 0 0 0 -100 150 -100 300
+P 2 0 0 0 200 300 200 150
+P 2 0 0 0 250 300 200 300
+P 2 0 0 0 250 150 250 300
+P 2 0 0 0 300 150 250 150
+P 2 0 0 0 300 300 300 150
+P 2 0 0 0 350 300 300 300
+P 2 0 0 0 350 150 350 300
+S 150 -300 -100 -150 0 0 0 f
+S 300 -250 250 -300 0 0 0 f
+S 300 -200 250 -150 0 0 0 f
+ENDDRAW
+ENDDEF
+#
+#   pins
+# NULL
+#
+DEF pins NULL 0 40 N Y 1 F N
+F0 "NULL" 0 100 50 H I L C CNN
+F1 "pins" 0 0 50 H I L C CNN
+$FPLIST
+ NULL_*
+$ENDFPLIST
+DRAW
+T 0 -800 100 50 0 0 1 "visible" Normal 0 L C
+T 0 440 103 50 0 0 1 "No label" Normal 0 L C
+T 0 650 -100 50 0 0 1 "top justified no label" Normal 0 L C
+T 0 950 100 50 0 0 1 "bottom justified no label" Normal 0 L C
+T 0 1500 -100 50 0 0 1 "left and right justified no label" Normal 0 L C
+T 900 -2000 -2550 50 0 0 1 "visible" Normal 0 L C
+T 900 -2003 -1309 50 0 0 1 "No label" Normal 0 L C
+T 900 -1800 -1100 50 0 0 1 "left justified no label" Normal 0 L C
+T 900 -2000 -800 50 0 0 1 "right justified no label" Normal 0 L C
+T 900 -1800 -250 50 0 0 1 "top and bottom justified no label" Normal 0 L C
+X top_horizontal 1 -200 0 0 D 50 50 1 0 U
+X bottom_horizontal 2 -50 0 0 U 50 50 1 0 U
+X left_horizontal 3 100 0 0 R 50 50 1 0 U
+X right_horizontal 4 -350 0 0 L 50 50 1 0 U
+X ~ 5 450 200 0 L 50 50 1 0 U
+X ~ 6 650 -200 0 D 50 50 1 0 U
+X ~ 7 950 200 0 U 50 50 1 0 U
+X ~ 8 1500 -200 0 R 50 50 1 0 U
+X ~ 9 1500 -300 0 L 50 50 1 0 U
+X left_vertical 10 -1900 -1950 0 D 50 50 1 0 U
+X right_vertical 11 -1900 -1800 0 U 50 50 1 0 U
+X bottom_vertical 12 -1900 -1650 0 R 50 50 1 0 U
+X top_vertical 13 -1900 -2100 0 L 50 50 1 0 U
+X ~ 14 -2100 -1300 0 L 50 50 1 0 U
+X ~ 15 -1700 -1100 0 D 50 50 1 0 U
+X ~ 16 -2100 -800 0 U 50 50 1 0 U
+X ~ 17 -1700 -250 0 L 50 50 1 0 U
+X ~ 18 -1600 -250 0 R 50 50 1 0 U
+ENDDRAW
+ENDDEF
+#
+#   reference fields 1 (horizontal)
+# NULL
+#
+DEF reference_fields_1_(horizontal) U 0 40 N Y 1 F N
+F0 "U" -200 50 50 H V L C CNN
+F1 "reference fields 1 (horizontal)" -103 -100 50 H V C C CNN
+$FPLIST
+ U_*
+$ENDFPLIST
+DRAW
+ENDDRAW
+ENDDEF
+#
+#   reference fields 2 (vertical)
+# NULL
+#
+DEF reference_fields_2_(vertical) U 0 40 N Y 1 F N
+F0 "U" -200 50 50 V V L C CNN
+F1 "reference fields 2 (vertical)" -103 -100 50 V V C C CNN
+$FPLIST
+ U_*
+$ENDFPLIST
+DRAW
+ENDDRAW
+ENDDEF
+#
+#   text
+# NULL
+#
+DEF text NULL 0 40 N Y 1 F N
+F0 "NULL" 0 100 50 H I L C CNN
+F1 "text" 0 0 50 H I L C CNN
+$FPLIST
+ NULL_*
+$ENDFPLIST
+DRAW
+T 0 0 100 50 0 0 1 "This is a left justified text field" Normal 0 L C
+T 0 0 0 50 0 0 1 "This is a right justified text field" Normal 0 R C
+T 0 0 -100 50 0 0 1 "This is a center justified text field" Normal 0 C C
+T 0 0 200 50 0 0 1 "This is a bottom justified text field" Normal 0 C B
+T 0 0 -200 50 0 0 1 "This is a top justified text field" Normal 0 C T
+T 900 -2100 50 50 0 0 1 "left vertical" Normal 0 L C
+T 900 -2000 50 50 0 0 1 "right vertical" Normal 0 R C
+T 900 -1900 50 50 0 0 1 "top vertical" Normal 0 C T
+T 900 -2200 50 50 0 0 1 "bottom vertical" Normal 0 C B
+ENDDRAW
+ENDDEF
+#
+#   UTF-16 circles and arcs
+# NULL
+#
+DEF UTF-16_circles_and_arcs NULL 0 40 N Y 1 F N
+F0 "NULL" -150 -200 50 H I L C CNN
+F1 "UTF-16 circles and arcs" -150 -250 50 H V L C CNN
+$FPLIST
+ NULL_*
+$ENDFPLIST
+DRAW
+P 50 0 0 0 0 -78 0 -68 2 -58 5 -48 10 -39 15 -31 22 -23 29 -17 37 -11 46 -6 55 -3 65 -1 75 0 85 0 95 -1 105 -4 114 -8 122 -14 130 -20 137 -27 143 -35 148 -44 152 -53 154 -63 156 -73 156 -83 154 -93 152 -102 148 -112 143 -120 137 -128 130 -135 122 -142 114 -147 105 -151 95 -154 85 -155 75 -156 65 -155 55 -153 46 -149 37 -144 29 -139 22 -132 15 -124 10 -116 5 -107 2 -97 0 -88 0 -78
+P 41 0 0 0 0 100 2 111 7 121 15 130 24 136 33 141 42 144 50 147 59 148 67 149 75 150 82 149 90 148 99 147 107 144 116 141 125 136 134 130 142 121 147 111 150 100 147 88 142 78 134 69 125 63 116 58 107 55 99 52 90 51 82 50 75 50 67 50 59 51 50 52 42 55 33 58 24 63 15 69 7 78 2 88 0 99
+P 24 0 0 0 -400 150 -398 160 -395 169 -390 178 -384 186 -375 192 -366 197 -356 199 -346 199 -336 198 -326 194 -318 188 -311 181 -305 173 -301 163 -300 153 -300 143 -302 133 -307 124 -313 115 -321 109 -330 104 -339 101 -350 100
+P 8 0 0 0 -150 100 -161 101 -171 104 -181 110 -189 118 -195 128 -198 138 -200 150
+P 36 0 0 0 -300 -100 -300 -104 -300 -109 -300 -113 -300 -118 -300 -123 -300 -129 -301 -135 -301 -141 -302 -149 -303 -157 -305 -167 -307 -178 -310 -192 -315 -207 -321 -223 -331 -238 -343 -248 -356 -248 -368 -238 -378 -223 -384 -207 -389 -192 -392 -178 -394 -167 -396 -157 -397 -149 -398 -141 -398 -135 -399 -129 -399 -123 -399 -118 -399 -113 -399 -109 -399 -104 -400 -100
+P 13 0 0 0 -250 -49 -246 -37 -238 -26 -227 -18 -215 -12 -204 -8 -194 -5 -185 -3 -177 -1 -170 -1 -163 0 -156 0 -150 0
+P 6 0 0 0 -258 -199 -261 -189 -262 -178 -262 -168 -261 -157 -258 -147
+ENDDRAW
+ENDDEF
+#
+#   UTF-16 lines and rectangles
+# NULL
+#
+DEF UTF-16_lines_and_rectangles NULL 0 40 N Y 1 F N
+F0 "NULL" 0 100 50 H I L C CNN
+F1 "UTF-16 lines and rectangles" 0 0 50 H I L C CNN
+$FPLIST
+ NULL_*
+$ENDFPLIST
+DRAW
+P 2 0 0 0 100 0 -100 0
+P 2 0 0 0 150 -50 100 0
+P 2 0 0 0 150 0 150 -50
+P 2 0 0 0 150 50 150 0
+P 2 0 0 0 100 0 150 50
+P 2 0 0 0 150 150 -100 150
+P 2 0 0 0 150 300 150 150
+P 2 0 0 0 -100 300 150 300
+P 2 0 0 0 -100 150 -100 300
+P 2 0 0 0 200 300 200 150
+P 2 0 0 0 250 300 200 300
+P 2 0 0 0 250 150 250 300
+P 2 0 0 0 300 150 250 150
+P 2 0 0 0 300 300 300 150
+P 2 0 0 0 350 300 300 300
+P 2 0 0 0 350 150 350 300
+S 150 -300 -100 -150 0 0 0 f
+S 300 -250 250 -300 0 0 0 f
+S 300 -200 250 -150 0 0 0 f
+ENDDRAW
+ENDDEF
+#
+#   UTF-16 pins
+# NULL
+#
+DEF UTF-16_pins NULL 0 40 N Y 1 F N
+F0 "NULL" 0 100 50 H I L C CNN
+F1 "UTF-16 pins" 0 0 50 H I L C CNN
+$FPLIST
+ NULL_*
+$ENDFPLIST
+DRAW
+T 0 -800 100 50 0 0 1 "visible" Normal 0 L C
+T 0 440 103 50 0 0 1 "No label" Normal 0 L C
+T 0 650 -100 50 0 0 1 "top justified no label" Normal 0 L C
+T 0 950 100 50 0 0 1 "bottom justified no label" Normal 0 L C
+T 0 1500 -100 50 0 0 1 "left and right justified no label" Normal 0 L C
+T 900 -2000 -2550 50 0 0 1 "visible" Normal 0 L C
+T 900 -2003 -1309 50 0 0 1 "No label" Normal 0 L C
+T 900 -1800 -1100 50 0 0 1 "left justified no label" Normal 0 L C
+T 900 -2000 -800 50 0 0 1 "right justified no label" Normal 0 L C
+T 900 -1800 -250 50 0 0 1 "top and bottom justified no label" Normal 0 L C
+X top_horizontal 1 -200 0 0 D 50 50 1 0 U
+X bottom_horizontal 2 -50 0 0 U 50 50 1 0 U
+X left_horizontal 3 100 0 0 R 50 50 1 0 U
+X right_horizontal 4 -350 0 0 L 50 50 1 0 U
+X ~ 5 450 200 0 L 50 50 1 0 U
+X ~ 6 650 -200 0 D 50 50 1 0 U
+X ~ 7 950 200 0 U 50 50 1 0 U
+X ~ 8 1500 -200 0 R 50 50 1 0 U
+X ~ 9 1500 -300 0 L 50 50 1 0 U
+X left_vertical 10 -1900 -1950 0 D 50 50 1 0 U
+X right_vertical 11 -1900 -1800 0 U 50 50 1 0 U
+X bottom_vertical 12 -1900 -1650 0 R 50 50 1 0 U
+X top_vertical 13 -1900 -2100 0 L 50 50 1 0 U
+X ~ 14 -2100 -1300 0 L 50 50 1 0 U
+X ~ 15 -1700 -1100 0 D 50 50 1 0 U
+X ~ 16 -2100 -800 0 U 50 50 1 0 U
+X ~ 17 -1700 -250 0 L 50 50 1 0 U
+X ~ 18 -1600 -250 0 R 50 50 1 0 U
+ENDDRAW
+ENDDEF
+#
+#   UTF-16 reference fields 1 (horizontal)
+# NULL
+#
+DEF UTF-16_reference_fields_1_(horizontal) U 0 40 N Y 1 F N
+F0 "U" -200 50 50 H V L C CNN
+F1 "UTF-16 reference fields 1 (horizontal)" -103 -100 50 H V C C CNN
+$FPLIST
+ U_*
+$ENDFPLIST
+DRAW
+ENDDRAW
+ENDDEF
+#
+#   UTF-16 reference fields 2 (vertical)
+# NULL
+#
+DEF UTF-16_reference_fields_2_(vertical) U 0 40 N Y 1 F N
+F0 "U" -200 50 50 V V L C CNN
+F1 "UTF-16 reference fields 2 (vertical)" -103 -100 50 V V C C CNN
+$FPLIST
+ U_*
+$ENDFPLIST
+DRAW
+ENDDRAW
+ENDDEF
+#
+#   UTF-16 text
+# NULL
+#
+DEF UTF-16_text NULL 0 40 N Y 1 F N
+F0 "NULL" 0 100 50 H I L C CNN
+F1 "UTF-16 text" 0 0 50 H I L C CNN
+$FPLIST
+ NULL_*
+$ENDFPLIST
+DRAW
+T 0 0 100 50 0 0 1 "This is a left justified text field" Normal 0 L C
+T 0 0 0 50 0 0 1 "This is a right justified text field" Normal 0 R C
+T 0 0 -100 50 0 0 1 "This is a center justified text field" Normal 0 C C
+T 0 0 200 50 0 0 1 "This is a bottom justified text field" Normal 0 C B
+T 0 0 -200 50 0 0 1 "This is a top justified text field" Normal 0 C T
+T 900 -2100 50 50 0 0 1 "left vertical" Normal 0 L C
+T 900 -2000 50 50 0 0 1 "right vertical" Normal 0 R C
+T 900 -1900 50 50 0 0 1 "top vertical" Normal 0 C T
+T 900 -2200 50 50 0 0 1 "bottom vertical" Normal 0 C B
+ENDDRAW
+ENDDEF
+#
