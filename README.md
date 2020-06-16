@@ -1,5 +1,11 @@
 # KiCad Symbol and Footprint Converters
 
+## Sources
+- These scripts were written while I was a co-op student for [Empress Effects](https://empresseffects.com/). Go check them out!
+- The symbol converter was initially based on [one](https://github.com/laurentc2/LTspice2Kicad) written by Laurent Charrier before being heavily revised
+- The footprint converter was [originally](https://github.com/bobc/kicad-pcblib) written by Bob C and but was updated to add some extra functionality and be callable on folders with a bash script.
+
+
 ## Use
 
 ### Symbol conversion script syntax
