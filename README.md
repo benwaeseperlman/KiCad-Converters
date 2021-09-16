@@ -38,7 +38,7 @@
 #### LTspice .asy files
 
 - Since LTspice is not open source **.asy** files don't have an accessable discription of the file format so testing and examination was used to decipher it. As they are human readable text files this was very doable. The largest differences between them are:
-  - In the **.asy** files each line contains only one piece of information. This means that when defining a pin the name, number and location/orientation/size are all on different lines. In the KiCad **.lib** files this is not the case.
+  - In the **.asy** files each line contains only one piece of information. This means that when defining a symbol the name, number and location/orientation/size are all on different lines. In the KiCad **.lib** files this is not the case.
   - KiCad **.lib** files contain more than one symbol while **.asy** files contain only one. This means that when converting a single **.lib** file represents an entire folder of **.asy** files
 
 #### KiCad .lib files
@@ -50,7 +50,7 @@
   >**T** orientation posx posy dimension unit convert Text
   - An example of this from the documentation is given as:
   >T 0 -320 -10 100 0 0 1 VREF
-  - At first glance this looks fine but if you count the number of fileds before the text itself is given you'll see there is an extra one in the example that isn't accounted for in the documentation
+  - At first glance this looks fine but if you count the number of fields before the text itself is given you'll see there is an extra one in the example that isn't accounted for in the documentation
   - In addition, KiCad 5.1.x has three more required fields for text elements after the Text field that aren't doccumented in this pdf
 - In order to deal with these issues the format created by the converter doesn't exactly match what's layed out in the doccumentation
 
